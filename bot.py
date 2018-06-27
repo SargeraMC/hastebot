@@ -91,5 +91,5 @@ async def on_message_edit(old_message, new_message):
             await messageRemoval("homophobic comment", "Our goal is to create a friendly environment on our server. As such, any messages which contain potential homophobia will be removed.", new_message, old_message)
 
 
-bot.run('NDYxNTAwNzI2NzYyNTM2OTYx.DhUN6w.JxALi_hWZsrciyEwtxgVW9A7ttk')
+bot.run('-- HIDDEN -- ')
     
