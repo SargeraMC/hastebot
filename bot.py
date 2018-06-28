@@ -200,4 +200,4 @@ async def on_member_join(member):
     embed.set_footer(text="Powered By HasteBot | Version 0.1 | By Sargera")
     embed_message = await bot.send_message(message.channel, embed=embed)
     
-bot.run('NDYxNTAwNzI2NzYyNTM2OTYx.DhUN6w.JxALi_hWZsrciyEwtxgVW9A7ttk')    
+bot.run('HIDDEN')    
