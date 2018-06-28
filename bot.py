@@ -193,11 +193,16 @@ async def on_message_edit(old_message, new_message):
         if element in new_message.content:
             await messageRemoval("homophobic comment", "Our goal is to create a friendly environment on our server. As such, any messages which contain potential homophobia will be removed.", new_message, old_message)
 
+<<<<<<< HEAD
 @bot.event
 async def on_member_join(member):
     embed = discord.Embed(title=":zap: Hastebot", description="{} has just joined the server. Please feel free to welcome them!".formatm(member.name))
     embed = add_field(name="Subscribe to notifcations", value="{}, would you like to subscribe to receive notifications from announcements on our server? Please react with yes/no respectively. You may unsubscribe at any time".format(member.name))
     embed.set_footer(text="Powered By HasteBot | Version 0.1 | By Sargera")
     embed_message = await bot.send_message(message.channel, embed=embed)
+=======
+
+bot.run('-- HIDDEN -- ')
+>>>>>>> 688af7913a31b2d3e37c31dbfc82b834a512fb7d
     
 bot.run('NDYxNTAwNzI2NzYyNTM2OTYx.DhUN6w.JxALi_hWZsrciyEwtxgVW9A7ttk')    
